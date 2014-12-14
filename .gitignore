@@ -1,0 +1,8 @@
+todo-server/target
+todo-web/target
+.idea/
+*.iml
+.DS_Store
+auth-override.properties
+humans.txt
+
