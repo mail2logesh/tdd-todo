@@ -15,6 +15,9 @@ public class TaskResponse {
     @JsonProperty
     private String taskStatus;
 
+    public TaskResponse(){
+    }
+    
     public TaskResponse(String userId, String userName, String status) {
         this.taskID = userId;
         this.taskName = userName;
